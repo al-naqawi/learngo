@@ -33,12 +33,14 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// var (
-	// 	perimeter        int
-	// 	width, height = 5, 6
-	// )
+	var (
+ 	perimeter        int
+ 	width, height = 5, 6
+	perimeter = width + height * 2
+)
 
 	// USE THE VARIABLES ABOVE WHEN CALCULATING YOUR RESULT
 
 	// ADD YOUR CODE BELOW
+	fmt.println(perimeter)
 }
